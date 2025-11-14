@@ -1,392 +1,847 @@
 [
   {
     "id": 1,
-    "modulo": "psico_u1",
-    "nivel": "medio",
-    "pregunta": "¿Qué estudia la Psicología de la Emergencia?",
+    "modulo": "organizacion",
+    "nivel": "facil",
+    "pregunta": "¿Qué es una Asociación de Bomberos Voluntarios?",
     "opciones": [
-      "Cambios y reacciones humanas antes, durante y después de una emergencia",
-      "Solo el estrés postraumático",
-      "Técnicas de rescate en altura",
-      "Solo la conducta de las víctimas"
+      "Una entidad civil sin fines de lucro que sostiene y organiza el servicio de bomberos voluntarios",
+      "Una empresa privada que brinda servicios de rescate pagos",
+      "Un organismo militar dependiente del Ministerio de Defensa",
+      "Un grupo informal de vecinos sin personería jurídica"
     ],
-    "correcta": "Cambios y reacciones humanas antes, durante y después de una emergencia"
+    "correcta": "Una entidad civil sin fines de lucro que sostiene y organiza el servicio de bomberos voluntarios"
   },
   {
     "id": 2,
-    "modulo": "psico_u1",
-    "nivel": "facil",
-    "pregunta": "¿Qué es la psicología en forma general?",
+    "modulo": "organizacion",
+    "nivel": "medio",
+    "pregunta": "¿Cuál es la función principal del Cuerpo Activo?",
     "opciones": [
-      "Una disciplina que estudia procesos mentales y conducta humana",
-      "Una rama de la medicina que solo estudia el cerebro",
-      "Una técnica de entrenamiento físico",
-      "Una forma de filosofía antigua sin aplicación actual"
+      "Realizar la respuesta operativa ante emergencias",
+      "Administrar los recursos económicos de la institución",
+      "Diseñar las leyes provinciales",
+      "Controlar a las aseguradoras"
     ],
-    "correcta": "Una disciplina que estudia procesos mentales y conducta humana"
+    "correcta": "Realizar la respuesta operativa ante emergencias"
   },
   {
     "id": 3,
-    "modulo": "psico_u1",
+    "modulo": "organizacion",
     "nivel": "medio",
-    "pregunta": "La psicología de la emergencia actúa:",
+    "pregunta": "¿Qué representa la sigla INOBV en Argentina?",
     "opciones": [
-      "Antes, durante y después de la emergencia",
-      "Solo después de la emergencia",
-      "Solo antes de la emergencia",
-      "Solo cuando hay víctimas fatales"
+      "Identificación Numérica de las Organizaciones de Bomberos Voluntarios",
+      "Índice Nacional de Operaciones de Bomberos y Voluntarios",
+      "Informe Nacional de Organismos de Bomberos Voluntarios",
+      "Instituto Nacional de Bomberos Voluntarios"
     ],
-    "correcta": "Antes, durante y después de la emergencia"
+    "correcta": "Identificación Numérica de las Organizaciones de Bomberos Voluntarios"
   },
   {
     "id": 4,
-    "modulo": "psico_u1",
+    "modulo": "organizacion",
     "nivel": "dificil",
-    "pregunta": "¿Qué corriente tiene como objeto de estudio el inconsciente?",
+    "pregunta": "¿Cuál de estas opciones describe mejor a los socios activos?",
     "opciones": [
-      "Psicoanálisis",
-      "Conductismo",
-      "Gestalt",
-      "Cognitivismo"
+      "Integran el cuerpo operativo y participan en los servicios",
+      "Son vecinos que solo colaboran con una cuota mensual",
+      "Son empresas que donan materiales",
+      "Son familiares de los bomberos sin funciones específicas"
     ],
-    "correcta": "Psicoanálisis"
+    "correcta": "Integran el cuerpo operativo y participan en los servicios"
   },
   {
     "id": 5,
-    "modulo": "estres_u2",
-    "nivel": "medio",
-    "pregunta": "Según Hans Selye, el estrés es:",
+    "modulo": "organizacion",
+    "nivel": "facil",
+    "pregunta": "¿Quién es la máxima autoridad operativa dentro del cuartel?",
     "opciones": [
-      "Una reacción física, mental y emocional ante una circunstancia que perturba el equilibrio",
-      "Un trastorno psiquiátrico permanente",
-      "Una debilidad de carácter",
-      "Solo una reacción física sin componente emocional"
+      "El Jefe de Cuerpo",
+      "El Presidente de la Comisión Directiva",
+      "El Encargado de Guardia",
+      "El Aspirante más antiguo"
     ],
-    "correcta": "Una reacción física, mental y emocional ante una circunstancia que perturba el equilibrio"
+    "correcta": "El Jefe de Cuerpo"
   },
   {
     "id": 6,
-    "modulo": "estres_u2",
+    "modulo": "seguridad_bombero",
     "nivel": "facil",
-    "pregunta": "¿Cuál de estos es un estresor ocupacional inherente al hecho?",
+    "pregunta": "La regla número uno de seguridad del bombero es:",
     "opciones": [
-      "Muerte de compañeros o víctimas",
-      "Dormir poco por gusto personal",
-      "No desayunar",
-      "Escuchar música fuerte"
+      "Cuidar la propia vida para poder cuidar a otros",
+      "Apagar el fuego lo más rápido posible",
+      "Entrar siempre por la puerta principal",
+      "Nunca pedir ayuda"
     ],
-    "correcta": "Muerte de compañeros o víctimas"
+    "correcta": "Cuidar la propia vida para poder cuidar a otros"
   },
   {
     "id": 7,
-    "modulo": "estres_u2",
-    "nivel": "dificil",
-    "pregunta": "El estrés operativo durante la intervención suele producir:",
+    "modulo": "seguridad_bombero",
+    "nivel": "medio",
+    "pregunta": "¿Qué elemento NO forma parte del Equipo de Protección Personal estructural estándar?",
     "opciones": [
-      "Aumento de fuerza física y disminución de la sensibilidad al dolor",
-      "Disminución de la frecuencia cardíaca",
-      "Somnolencia intensa",
-      "Parálisis completa del cuerpo"
+      "Casco con antiparra o visor",
+      "Guantes estructurales",
+      "Botas de goma o cuero certificadas",
+      "Zapatillas deportivas comunes"
     ],
-    "correcta": "Aumento de fuerza física y disminución de la sensibilidad al dolor"
+    "correcta": "Zapatillas deportivas comunes"
   },
   {
     "id": 8,
-    "modulo": "estres_u2",
+    "modulo": "seguridad_bombero",
     "nivel": "medio",
-    "pregunta": "Una reacción esperable después de la intervención es:",
+    "pregunta": "¿Cuál es el objetivo principal del chequeo de equipo antes de salir a un servicio?",
     "opciones": [
-      "Recuerdos intrusivos o flashbacks",
-      "Euforia constante por semanas",
-      "Amnesia permanente del evento",
-      "Incapacidad total de hablar"
+      "Ver si el uniforme está limpio",
+      "Asegurar que todo el equipo esté operativo y completo",
+      "Probar el sonido de la sirena",
+      "Revisar la cantidad de combustible del móvil personal"
     ],
-    "correcta": "Recuerdos intrusivos o flashbacks"
+    "correcta": "Asegurar que todo el equipo esté operativo y completo"
   },
   {
     "id": 9,
-    "modulo": "herramientas_u3",
-    "nivel": "facil",
-    "pregunta": "La respiración consciente permite:",
+    "modulo": "seguridad_bombero",
+    "nivel": "dificil",
+    "pregunta": "El síndrome del bombero invulnerable se relaciona con:",
     "opciones": [
-      "Bajar la frecuencia cardíaca y recuperar el control",
-      "Aumentar la hiperexcitación",
-      "Producir desmayos intencionalmente",
-      "Evitar por completo el estrés"
+      "Creer que nada le puede pasar y asumir riesgos innecesarios",
+      "Hacer más ejercicio físico que el resto",
+      "Usar más EPP del necesario",
+      "Hablar poco en la guardia"
     ],
-    "correcta": "Bajar la frecuencia cardíaca y recuperar el control"
+    "correcta": "Creer que nada le puede pasar y asumir riesgos innecesarios"
   },
   {
     "id": 10,
-    "modulo": "herramientas_u3",
-    "nivel": "medio",
-    "pregunta": "El ejercicio de respiración propuesto se realiza:",
+    "modulo": "seguridad_bombero",
+    "nivel": "facil",
+    "pregunta": "¿Qué es el PAR o sistema de compañero (buddy system)?",
     "opciones": [
-      "Diez minutos dos veces al día",
-      "Una vez al mes",
-      "Solo antes de intervenir en incendios",
-      "Solo si el jefe lo ordena"
+      "Entrar y trabajar siempre como mínimo de a dos, controlándose mutuamente",
+      "Salir solo para llegar más rápido",
+      "Turnarse para usar el mismo EPP",
+      "Dejar a uno en el móvil y uno solo entra"
     ],
-    "correcta": "Diez minutos dos veces al día"
+    "correcta": "Entrar y trabajar siempre como mínimo de a dos, controlándose mutuamente"
   },
   {
     "id": 11,
-    "modulo": "herramientas_u3",
+    "modulo": "psicologia",
     "nivel": "medio",
-    "pregunta": "El plan de manejo del estrés incluye:",
+    "pregunta": "El estrés operativo en bomberos es:",
     "opciones": [
-      "Descanso adecuado, dieta saludable y ejercicio físico",
-      "Aislamiento social permanente",
-      "No hablar nunca del tema",
-      "Aumentar el consumo de alcohol para relajarse"
+      "Una respuesta adaptativa durante la intervención que mejora el rendimiento",
+      "Siempre patológico y debe evitarse",
+      "Un síntoma de enfermedad cardíaca",
+      "Exclusivo de las víctimas y no de los intervinientes"
     ],
-    "correcta": "Descanso adecuado, dieta saludable y ejercicio físico"
+    "correcta": "Una respuesta adaptativa durante la intervención que mejora el rendimiento"
   },
   {
     "id": 12,
-    "modulo": "herramientas_u3",
-    "nivel": "dificil",
-    "pregunta": "El defusing es:",
+    "modulo": "psicologia",
+    "nivel": "facil",
+    "pregunta": "El defusing se realiza:",
     "opciones": [
-      "Una técnica de descarga emocional para primeros respondientes tras una intervención",
-      "Un tipo de terapia individual a largo plazo",
-      "Una reunión operativa para criticar errores",
-      "Un informe escrito obligatorio"
+      "Dentro de las primeras 24 horas posteriores a una intervención crítica",
+      "Un año después de la emergencia",
+      "Solo si hay fallecidos en el servicio",
+      "Exclusivamente con civiles"
     ],
-    "correcta": "Una técnica de descarga emocional para primeros respondientes tras una intervención"
+    "correcta": "Dentro de las primeras 24 horas posteriores a una intervención crítica"
   },
   {
     "id": 13,
-    "modulo": "equipo_u4",
+    "modulo": "psicologia",
     "nivel": "medio",
-    "pregunta": "¿Qué diferencia fundamental hay entre grupo y equipo?",
+    "pregunta": "Una estrategia saludable de manejo del estrés es:",
     "opciones": [
-      "El equipo trabaja con visión colectivista",
-      "El grupo no tiene personas",
-      "El equipo no tiene comunicación",
-      "El grupo siempre rinde más que el equipo"
+      "Mantener buena higiene del sueño y actividad física regular",
+      "Aislarse del resto del cuerpo para no hablar del tema",
+      "Aumentar el consumo de alcohol para dormir",
+      "Dejar de asistir al cuartel sin avisar"
     ],
-    "correcta": "El equipo trabaja con visión colectivista"
+    "correcta": "Mantener buena higiene del sueño y actividad física regular"
   },
   {
     "id": 14,
-    "modulo": "equipo_u4",
-    "nivel": "facil",
-    "pregunta": "Una característica del trabajo en equipo es:",
+    "modulo": "psicologia",
+    "nivel": "dificil",
+    "pregunta": "Los recuerdos intrusivos o flashbacks luego de un servicio son:",
     "opciones": [
-      "Complementariedad entre los miembros",
-      "Competencia interna permanente",
-      "Falta de comunicación",
-      "Ausencia de coordinación"
+      "Reacciones esperables a corto plazo, si son transitorias",
+      "Siempre un trastorno irreversible",
+      "Inventos del bombero para llamar la atención",
+      "Motivo para expulsar al bombero del cuerpo"
     ],
-    "correcta": "Complementariedad entre los miembros"
+    "correcta": "Reacciones esperables a corto plazo, si son transitorias"
   },
   {
     "id": 15,
-    "modulo": "equipo_u4",
-    "nivel": "medio",
-    "pregunta": "El rol de saboteador en un equipo se caracteriza por:",
+    "modulo": "psicologia",
+    "nivel": "facil",
+    "pregunta": "La respiración consciente en un bombero sirve para:",
     "opciones": [
-      "Dificultar el cambio y centrarse en obstáculos",
-      "Guiar al grupo hacia el objetivo",
-      "Hablar por todos los compañeros",
-      "Ser especialista técnico en un tema"
+      "Disminuir la ansiedad y recuperar el control fisiológico",
+      "Hiperventilar intencionalmente",
+      "Dejar de usar EPP",
+      "Producir desmayos durante la intervención"
     ],
-    "correcta": "Dificultar el cambio y centrarse en obstáculos"
+    "correcta": "Disminuir la ansiedad y recuperar el control fisiológico"
   },
   {
     "id": 16,
-    "modulo": "equipo_u4",
-    "nivel": "dificil",
-    "pregunta": "El referente dentro de un equipo es:",
+    "modulo": "comunicaciones",
+    "nivel": "facil",
+    "pregunta": "El objetivo principal de la comunicación por radio en un servicio es:",
     "opciones": [
-      "Alguien accesible y reconocido por su conocimiento y disposición a compartirlo",
-      "El que se lleva todo el crédito sin trabajar",
-      "Quien solo cumple órdenes sin opinar",
-      "Quien siempre se opone a las decisiones"
+      "Transmitir información clara, breve y oportuna",
+      "Mantener charlas sociales durante el viaje",
+      "Hablar lo más rápido posible",
+      "Usar la jerga más complicada posible"
     ],
-    "correcta": "Alguien accesible y reconocido por su conocimiento y disposición a compartirlo"
+    "correcta": "Transmitir información clara, breve y oportuna"
   },
   {
     "id": 17,
-    "modulo": "escalafon",
+    "modulo": "comunicaciones",
     "nivel": "medio",
-    "pregunta": "¿Qué es el escalafón jerárquico en bomberos?",
+    "pregunta": "El código Q se utiliza para:",
     "opciones": [
-      "La estructura de grados y responsabilidades dentro del cuerpo",
-      "La lista de personas que pagan la cuota social",
-      "El orden de salida de las autobombas",
-      "El listado de servicios atendidos en el año"
+      "Estandarizar mensajes breves y evitar confusiones",
+      "Identificar materiales peligrosos",
+      "Clasificar tipos de incendios",
+      "Designar la jerarquía del personal"
     ],
-    "correcta": "La estructura de grados y responsabilidades dentro del cuerpo"
+    "correcta": "Estandarizar mensajes breves y evitar confusiones"
   },
   {
     "id": 18,
-    "modulo": "escalafon",
-    "nivel": "facil",
-    "pregunta": "El escalafón permite:",
+    "modulo": "comunicaciones",
+    "nivel": "medio",
+    "pregunta": "Cuando se transmite un mensaje por radio se debe:",
     "opciones": [
-      "Organizar la cadena de mando y funciones",
-      "Evitar la capacitación",
-      "Eliminar la jerarquía",
-      "Trabajar sin responsables"
+      "Pensar primero, luego presionar el PTT y hablar claro",
+      "Hablar y luego ver si el mensaje tenía sentido",
+      "Mantener el PTT presionado todo el tiempo",
+      "Tapar el micrófono para que no se escuche fuerte"
     ],
-    "correcta": "Organizar la cadena de mando y funciones"
+    "correcta": "Pensar primero, luego presionar el PTT y hablar claro"
   },
   {
     "id": 19,
-    "modulo": "historia_bomberil",
-    "nivel": "facil",
-    "pregunta": "¿En qué año se crea el primer Cuerpo de Bomberos Voluntarios de la República Argentina?",
+    "modulo": "comunicaciones",
+    "nivel": "dificil",
+    "pregunta": "La frase \"cambio\" en radio indica:",
     "opciones": [
-      "1884",
-      "1882",
-      "1900",
-      "1810"
+      "Que se espera respuesta del interlocutor",
+      "Fin de la comunicación",
+      "Que se termina el servicio",
+      "Que se corta la transmisión por falla"
     ],
-    "correcta": "1884"
+    "correcta": "Que se espera respuesta del interlocutor"
   },
   {
     "id": 20,
-    "modulo": "historia_bomberil",
-    "nivel": "medio",
-    "pregunta": "¿En qué barrio se formó el primer cuerpo de bomberos voluntarios argentinos?",
+    "modulo": "comunicaciones",
+    "nivel": "facil",
+    "pregunta": "Durante una emergencia, el uso excesivo de la radio para mensajes irrelevantes:",
     "opciones": [
-      "La Boca",
-      "Palermo",
-      "Recoleta",
-      "San Telmo"
+      "Satura el canal e interfiere con mensajes críticos",
+      "Ayuda a mantener despierto al operador",
+      "Es una forma de entrenamiento",
+      "Está recomendado para bajar el estrés"
     ],
-    "correcta": "La Boca"
+    "correcta": "Satura el canal e interfiere con mensajes críticos"
   },
   {
     "id": 21,
-    "modulo": "historia_bomberil",
-    "nivel": "medio",
-    "pregunta": "¿Quiénes tuvieron un rol clave en la creación del primer cuerpo de bomberos voluntarios argentinos?",
+    "modulo": "materiales_incendios",
+    "nivel": "facil",
+    "pregunta": "Una línea de 38 mm se utiliza principalmente para:",
     "opciones": [
-      "Tomás y Oreste Liberti",
-      "San Martín y Belgrano",
-      "Marconi y Tesla",
-      "Sólo un grupo anónimo de vecinos"
+      "Ataque inicial en incendios estructurales livianos",
+      "Ventilación mecánica",
+      "Rescate en altura",
+      "Señalización del perímetro"
     ],
-    "correcta": "Tomás y Oreste Liberti"
+    "correcta": "Ataque inicial en incendios estructurales livianos"
   },
   {
     "id": 22,
-    "modulo": "historia_institucional",
-    "nivel": "facil",
-    "pregunta": "¿En qué fecha se fundó la Asociación de Bomberos Voluntarios de Malvinas Argentinas?",
+    "modulo": "materiales_incendios",
+    "nivel": "medio",
+    "pregunta": "Un monitor o cañón es:",
     "opciones": [
-      "3 de marzo de 1984",
-      "2 de junio de 1884",
-      "9 de julio de 1816",
-      "1 de enero de 2000"
+      "Un dispositivo fijo o portátil para aplicar grandes caudales de agua o espuma",
+      "Un tipo de EPP para el rostro",
+      "Un equipo de comunicaciones",
+      "Un detector de gases"
     ],
-    "correcta": "3 de marzo de 1984"
+    "correcta": "Un dispositivo fijo o portátil para aplicar grandes caudales de agua o espuma"
   },
   {
     "id": 23,
-    "modulo": "historia_institucional",
-    "nivel": "facil",
-    "pregunta": "¿Cuál es el nombre del Cuartel Central de Malvinas Argentinas?",
+    "modulo": "materiales_incendios",
+    "nivel": "medio",
+    "pregunta": "Las lanzas regulables permiten:",
     "opciones": [
-      "Juan Espina",
-      "Dionicio García",
-      "Tomás Liberti",
-      "Oreste Liberti"
+      "Modificar el patrón de chorro entre compacto y niebla",
+      "Cambiar el color del agua",
+      "Aumentar la temperatura del agua",
+      "Usar agua con combustibles"
     ],
-    "correcta": "Juan Espina"
+    "correcta": "Modificar el patrón de chorro entre compacto y niebla"
   },
   {
     "id": 24,
-    "modulo": "historia_institucional",
-    "nivel": "medio",
-    "pregunta": "¿Cuál es la dirección del Cuartel Central de Malvinas Argentinas?",
+    "modulo": "materiales_incendios",
+    "nivel": "dificil",
+    "pregunta": "Una ventaja del chorro en niebla es:",
     "opciones": [
-      "Dr Baroni 2684",
-      "Paso de los Andes 951",
-      "Avenida Siempre Viva 123",
-      "Ruta 8 km 30"
+      "Produce mayor superficie de intercambio y absorción de calor",
+      "Llega más lejos que el chorro compacto",
+      "No genera vapor",
+      "No afecta a la visibilidad"
     ],
-    "correcta": "Dr Baroni 2684"
+    "correcta": "Produce mayor superficie de intercambio y absorción de calor"
   },
   {
     "id": 25,
-    "modulo": "historia_institucional",
-    "nivel": "medio",
-    "pregunta": "¿Cómo se llama el Destacamento 1 de Grand Bourg?",
+    "modulo": "materiales_incendios",
+    "nivel": "facil",
+    "pregunta": "Los pitones de caudal reducido se emplean típicamente en:",
     "opciones": [
-      "Dionicio García",
-      "Juan Espina",
-      "San Martín",
-      "Belgrano"
+      "Incendios de interior pequeños o recintos cerrados",
+      "Lucha contra incendios forestales de copa",
+      "Enfriamiento de estructuras metálicas grandes",
+      "Grandes tanques de combustibles"
     ],
-    "correcta": "Dionicio García"
+    "correcta": "Incendios de interior pequeños o recintos cerrados"
   },
   {
     "id": 26,
-    "modulo": "historia_institucional",
-    "nivel": "medio",
-    "pregunta": "¿Cuál es la dirección del Destacamento 1 Grand Bourg?",
+    "modulo": "riesgo_electrico",
+    "nivel": "facil",
+    "pregunta": "Ante un incendio con cables eléctricos caídos se debe:",
     "opciones": [
-      "Paso de los Andes 951",
-      "Dr Baroni 2684",
-      "Ruta 8 km 45",
-      "San Martín 500"
+      "Mantener distancia de seguridad y solicitar corte al proveedor",
+      "Tirarles agua enseguida",
+      "Pisar los cables con botas de goma",
+      "Mover los cables con la mano si no chispean"
     ],
-    "correcta": "Paso de los Andes 951"
+    "correcta": "Mantener distancia de seguridad y solicitar corte al proveedor"
   },
   {
     "id": 27,
-    "modulo": "historia_institucional",
+    "modulo": "riesgo_electrico",
     "nivel": "medio",
-    "pregunta": "El teléfono del Cuartel Central es:",
+    "pregunta": "La zona de paso segura ante un cable caído se realiza:",
     "opciones": [
-      "4660-2222",
-      "02320-48-1777",
-      "911",
-      "0800-222-2376"
+      "Avanzando con pasos cortos y pies juntos",
+      "Corriendo rápido para atravesar la zona",
+      "Saltando con un solo pie",
+      "De espaldas para no ver el riesgo"
     ],
-    "correcta": "4660-2222"
+    "correcta": "Avanzando con pasos cortos y pies juntos"
   },
   {
     "id": 28,
-    "modulo": "historia_institucional",
+    "modulo": "riesgo_electrico",
     "nivel": "medio",
-    "pregunta": "El teléfono del Destacamento 1 Grand Bourg es:",
+    "pregunta": "¿Qué tipo de chorro es más seguro en presencia de riesgo eléctrico?",
     "opciones": [
-      "02320-48-1777",
-      "4660-2222",
-      "101",
-      "02320-15-0000"
+      "Niebla a baja presión y desde distancia",
+      "Chorro compacto a máxima presión",
+      "Agua directa sobre tableros",
+      "Espuma de alta expansión sin distancia"
     ],
-    "correcta": "02320-48-1777"
+    "correcta": "Niebla a baja presión y desde distancia"
   },
   {
     "id": 29,
-    "modulo": "historia_institucional",
+    "modulo": "riesgo_electrico",
     "nivel": "dificil",
-    "pregunta": "El nombre 'INOBV 166' identifica:",
+    "pregunta": "En intervención con tableros eléctricos, además del corte de energía se debe:",
     "opciones": [
-      "El número de la Asociación de Bomberos Voluntarios de Malvinas Argentinas",
-      "El código postal de Malvinas Argentinas",
-      "Un tipo de autobomba",
-      "Un protocolo de intervención médica"
+      "Verificar ausencia de tensión con instrumental adecuado",
+      "Confiar solo en que bajaron la llave",
+      "Mojar todo el tablero para enfriarlo",
+      "Tocar los cables con el dorso de la mano"
     ],
-    "correcta": "El número de la Asociación de Bomberos Voluntarios de Malvinas Argentinas"
+    "correcta": "Verificar ausencia de tensión con instrumental adecuado"
   },
   {
     "id": 30,
-    "modulo": "psico_victimas",
-    "nivel": "dificil",
-    "pregunta": "Las víctimas pueden presentar visión de túnel durante el evento. Esto implica:",
+    "modulo": "riesgo_electrico",
+    "nivel": "facil",
+    "pregunta": "Un riesgo típico para bomberos en incendios estructurales es:",
     "opciones": [
-      "Dificultad para analizar globalmente la situación",
-      "Que ven mejor en la oscuridad",
-      "Que solo perciben sonidos",
-      "Que pierden totalmente la visión"
+      "Instalaciones eléctricas deterioradas o clandestinas",
+      "La ausencia total de electricidad",
+      "Solo la presencia de baterías nuevas",
+      "La pintura de color de los cables"
     ],
-    "correcta": "Dificultad para analizar globalmente la situación"
+    "correcta": "Instalaciones eléctricas deterioradas o clandestinas"
+  },
+  {
+    "id": 31,
+    "modulo": "fuego",
+    "nivel": "facil",
+    "pregunta": "El fuego es:",
+    "opciones": [
+      "Una reacción química de oxidación rápida que libera calor, luz y productos de combustión",
+      "Un estado especial del agua",
+      "Solo una explosión",
+      "Una descarga eléctrica"
+    ],
+    "correcta": "Una reacción química de oxidación rápida que libera calor, luz y productos de combustión"
+  },
+  {
+    "id": 32,
+    "modulo": "fuego",
+    "nivel": "medio",
+    "pregunta": "La fase de crecimiento del fuego se caracteriza por:",
+    "opciones": [
+      "Aumento progresivo de temperatura y propagación",
+      "Consumo total del combustible",
+      "Extinción completa",
+      "Ausencia de humo"
+    ],
+    "correcta": "Aumento progresivo de temperatura y propagación"
+  },
+  {
+    "id": 33,
+    "modulo": "fuego",
+    "nivel": "medio",
+    "pregunta": "Un flashover es:",
+    "opciones": [
+      "La ignición casi simultánea de todos los materiales combustibles del recinto",
+      "La explosión de los vidrios por temperatura",
+      "La caída de la estructura",
+      "La entrada de la dotación al ambiente"
+    ],
+    "correcta": "La ignición casi simultánea de todos los materiales combustibles del recinto"
+  },
+  {
+    "id": 34,
+    "modulo": "fuego",
+    "nivel": "dificil",
+    "pregunta": "Un backdraft se produce cuando:",
+    "opciones": [
+      "En un recinto cerrado con fuego latente y gases sobrecalentados ingresa oxígeno de golpe",
+      "El fuego se apaga solo por falta de combustible",
+      "Se ventila de forma controlada desde arriba",
+      "Se aplica agua en niebla a baja presión"
+    ],
+    "correcta": "En un recinto cerrado con fuego latente y gases sobrecalentados ingresa oxígeno de golpe"
+  },
+  {
+    "id": 35,
+    "modulo": "fuego",
+    "nivel": "facil",
+    "pregunta": "Los combustibles líquidos se clasifican, entre otros criterios, en:",
+    "opciones": [
+      "Mísibles y no mísibles con el agua",
+      "Ácidos y básicos",
+      "Duros y blandos",
+      "Gaseosos y sólidos"
+    ],
+    "correcta": "Mísibles y no mísibles con el agua"
+  },
+  {
+    "id": 36,
+    "modulo": "forestales",
+    "nivel": "facil",
+    "pregunta": "En incendios forestales, la \"cabeza\" del incendio es:",
+    "opciones": [
+      "La parte que avanza más rápido impulsada por el viento",
+      "La base del tronco de los árboles",
+      "La zona ya consumida",
+      "El perímetro frío"
+    ],
+    "correcta": "La parte que avanza más rápido impulsada por el viento"
+  },
+  {
+    "id": 37,
+    "modulo": "forestales",
+    "nivel": "medio",
+    "pregunta": "Un factor crítico en la propagación de incendios forestales es:",
+    "opciones": [
+      "Viento, pendiente y tipo de combustible",
+      "Color del suelo",
+      "Cantidad de rocas visibles",
+      "Número de animales en el área"
+    ],
+    "correcta": "Viento, pendiente y tipo de combustible"
+  },
+  {
+    "id": 38,
+    "modulo": "forestales",
+    "nivel": "medio",
+    "pregunta": "La técnica de ataque indirecto en incendios forestales consiste en:",
+    "opciones": [
+      "Construir líneas de defensa alejadas del frente de fuego",
+      "Aplicar agua directamente sobre las llamas",
+      "Entrar por el medio del frente principal",
+      "Esperar a que el fuego se extinga solo"
+    ],
+    "correcta": "Construir líneas de defensa alejadas del frente de fuego"
+  },
+  {
+    "id": 39,
+    "modulo": "forestales",
+    "nivel": "dificil",
+    "pregunta": "Una quema de ensanche correctamente ejecutada tiene como objetivo:",
+    "opciones": [
+      "Eliminar combustible entre el fuego principal y la línea de defensa",
+      "Aumentar la intensidad del incendio",
+      "Cambiar la dirección del viento",
+      "Generar humo para señalización"
+    ],
+    "correcta": "Eliminar combustible entre el fuego principal y la línea de defensa"
+  },
+  {
+    "id": 40,
+    "modulo": "forestales",
+    "nivel": "facil",
+    "pregunta": "En incendios forestales el equipo de protección debe incluir obligatoriamente:",
+    "opciones": [
+      "Protección ocular, casco, guantes y calzado adecuado",
+      "Solo remera y pantalón corto",
+      "Sandalias y gorra",
+      "Ropa sintética liviana"
+    ],
+    "correcta": "Protección ocular, casco, guantes y calzado adecuado"
+  },
+  {
+    "id": 41,
+    "modulo": "estructurales",
+    "nivel": "facil",
+    "pregunta": "En incendios estructurales, una de las reglas generales de ataque es:",
+    "opciones": [
+      "Atacar el fuego sobre su propio plano",
+      "Entrar siempre por el lado opuesto al fuego",
+      "No utilizar agua en interiores",
+      "Apagar primero el humo y luego las llamas"
+    ],
+    "correcta": "Atacar el fuego sobre su propio plano"
+  },
+  {
+    "id": 42,
+    "modulo": "estructurales",
+    "nivel": "medio",
+    "pregunta": "Una medida de seguridad básica dentro de una estructura es:",
+    "opciones": [
+      "Mantener siempre identificadas las vías de escape",
+      "Salir del edificio sin avisar al jefe de dotación",
+      "Dejar puertas abiertas sin control",
+      "Trabajar sin línea de agua"
+    ],
+    "correcta": "Mantener siempre identificadas las vías de escape"
+  },
+  {
+    "id": 43,
+    "modulo": "estructurales",
+    "nivel": "medio",
+    "pregunta": "El ennegrecimiento de marcos de puertas y ventanas indica:",
+    "opciones": [
+      "Alta carga térmica y gases calientes acumulados",
+      "Que el fuego está totalmente extinguido",
+      "Que es seguro ingresar sin EPP",
+      "Que el ambiente está frío"
+    ],
+    "correcta": "Alta carga térmica y gases calientes acumulados"
+  },
+  {
+    "id": 44,
+    "modulo": "estructurales",
+    "nivel": "dificil",
+    "pregunta": "Al realizar ventilación en un incendio estructural se debe:",
+    "opciones": [
+      "Coordinarla con el ataque interior para no alimentar el fuego",
+      "Abrir todas las ventanas sin coordinación",
+      "Ventilar antes de tener línea de ataque",
+      "Hacer huecos al azar en el techo"
+    ],
+    "correcta": "Coordinarla con el ataque interior para no alimentar el fuego"
+  },
+  {
+    "id": 45,
+    "modulo": "estructurales",
+    "nivel": "facil",
+    "pregunta": "Una causa frecuente de atrapamiento de bomberos en incendios estructurales es:",
+    "opciones": [
+      "Pérdida de orientación y colapso de estructura",
+      "Llevar demasiado equipo de reserva",
+      "Exceso de iluminación",
+      "Baja temperatura en el ambiente"
+    ],
+    "correcta": "Pérdida de orientación y colapso de estructura"
+  },
+  {
+    "id": 46,
+    "modulo": "socorrismo",
+    "nivel": "facil",
+    "pregunta": "El orden correcto de evaluación primaria es:",
+    "opciones": [
+      "Vía aérea, respiración, circulación",
+      "Circulación, respiración, vía aérea",
+      "Respiración, circulación, vía aérea",
+      "Dolor, pulso, temperatura"
+    ],
+    "correcta": "Vía aérea, respiración, circulación"
+  },
+  {
+    "id": 47,
+    "modulo": "socorrismo",
+    "nivel": "medio",
+    "pregunta": "Una hemorragia arterial se caracteriza por:",
+    "opciones": [
+      "Sangre roja brillante que sale a chorro sincronizado con el pulso",
+      "Sangre oscura que fluye lentamente",
+      "Pequeños puntos de sangrado superficial",
+      "Ausencia de sangrado visible"
+    ],
+    "correcta": "Sangre roja brillante que sale a chorro sincronizado con el pulso"
+  },
+  {
+    "id": 48,
+    "modulo": "socorrismo",
+    "nivel": "medio",
+    "pregunta": "La medida inicial para controlar una hemorragia externa es:",
+    "opciones": [
+      "Aplicar presión directa sobre la herida",
+      "Aplicar hielo solamente",
+      "Esperar a que deje de sangrar sola",
+      "Elevar los pies del paciente"
+    ],
+    "correcta": "Aplicar presión directa sobre la herida"
+  },
+  {
+    "id": 49,
+    "modulo": "socorrismo",
+    "nivel": "dificil",
+    "pregunta": "En un paciente politraumatizado consciente se debe:",
+    "opciones": [
+      "Inmovilizar columna cervical y evitar movimientos innecesarios",
+      "Sentarlo para que respire mejor",
+      "Permitir que camine si lo desea",
+      "No comunicarle lo que se va a hacer"
+    ],
+    "correcta": "Inmovilizar columna cervical y evitar movimientos innecesarios"
+  },
+  {
+    "id": 50,
+    "modulo": "socorrismo",
+    "nivel": "facil",
+    "pregunta": "Frecuencia respiratoria normal aproximada en un adulto en reposo:",
+    "opciones": [
+      "12 a 20 respiraciones por minuto",
+      "2 a 4 respiraciones por minuto",
+      "30 a 40 respiraciones por minuto",
+      "60 a 80 respiraciones por minuto"
+    ],
+    "correcta": "12 a 20 respiraciones por minuto"
+  },
+  {
+    "id": 51,
+    "modulo": "materiales_peligrosos",
+    "nivel": "facil",
+    "pregunta": "El número que figura en la parte inferior del panel naranja es:",
+    "opciones": [
+      "El número ONU de la sustancia",
+      "La cantidad de litros transportados",
+      "El número de licencia del chofer",
+      "La velocidad máxima del vehículo"
+    ],
+    "correcta": "El número ONU de la sustancia"
+  },
+  {
+    "id": 52,
+    "modulo": "materiales_peligrosos",
+    "nivel": "medio",
+    "pregunta": "La letra \"P\" junto al número de una guía en la GRE indica:",
+    "opciones": [
+      "Riesgo de polimerización violenta",
+      "Producto no peligroso",
+      "Solo riesgo ambiental",
+      "Que no se debe usar agua nunca"
+    ],
+    "correcta": "Riesgo de polimerización violenta"
+  },
+  {
+    "id": 53,
+    "modulo": "materiales_peligrosos",
+    "nivel": "medio",
+    "pregunta": "Los pictogramas del SGA sirven para:",
+    "opciones": [
+      "Identificar rápidamente el tipo de peligro del producto químico",
+      "Indicar la empresa transportista",
+      "Decorar el envase",
+      "Marcar el vencimiento del producto"
+    ],
+    "correcta": "Identificar rápidamente el tipo de peligro del producto químico"
+  },
+  {
+    "id": 54,
+    "modulo": "materiales_peligrosos",
+    "nivel": "dificil",
+    "pregunta": "Ante un escape de cloro (UN 1017) se debe priorizar:",
+    "opciones": [
+      "Aislamiento, protección de la población y trabajo a favor del viento",
+      "Acercarse sin EPP para oler el gas",
+      "Lanzar agua directamente sobre el escape sin evaluar nada",
+      "Ingresar por la nube para localizar el punto de fuga"
+    ],
+    "correcta": "Aislamiento, protección de la población y trabajo a favor del viento"
+  },
+  {
+    "id": 55,
+    "modulo": "materiales_peligrosos",
+    "nivel": "facil",
+    "pregunta": "En materiales peligrosos, la regla básica para el primer respondiente es:",
+    "opciones": [
+      "Reconocer, retirarse a lugar seguro y dar aviso",
+      "Ingresar rápido para rescatar sin evaluar",
+      "No usar ningún tipo de guía ni ficha",
+      "Apagar siempre con agua"
+    ],
+    "correcta": "Reconocer, retirarse a lugar seguro y dar aviso"
+  },
+  {
+    "id": 56,
+    "modulo": "cuerdas",
+    "nivel": "facil",
+    "pregunta": "Una cuerda de uso de rescate debe:",
+    "opciones": [
+      "Estar certificada y dedicada solo a ese fin",
+      "Usarse también para arrastrar vehículos",
+      "Guardarse siempre mojada",
+      "Cortarse cada vez que se ensucia"
+    ],
+    "correcta": "Estar certificada y dedicada solo a ese fin"
+  },
+  {
+    "id": 57,
+    "modulo": "cuerdas",
+    "nivel": "medio",
+    "pregunta": "Un nudo ocho doble se utiliza principalmente para:",
+    "opciones": [
+      "Enlazar la cuerda al arnés o a un punto de anclaje",
+      "Atar paquetes de mangueras",
+      "Hacer amarres de carga en camiones",
+      "Cerrar bolsas de residuos"
+    ],
+    "correcta": "Enlazar la cuerda al arnés o a un punto de anclaje"
+  },
+  {
+    "id": 58,
+    "modulo": "cuerdas",
+    "nivel": "medio",
+    "pregunta": "El cuidado de las cuerdas incluye:",
+    "opciones": [
+      "Evitar pisarlas, protegerlas de aristas y guardarlas limpias y secas",
+      "Lavarlas con productos químicos agresivos",
+      "Guardarlas expuestas al sol",
+      "Usarlas como soga de remolque"
+    ],
+    "correcta": "Evitar pisarlas, protegerlas de aristas y guardarlas limpias y secas"
+  },
+  {
+    "id": 59,
+    "modulo": "cuerdas",
+    "nivel": "dificil",
+    "pregunta": "Una causa frecuente de retiro de una cuerda de servicio es:",
+    "opciones": [
+      "Golpe severo, corte de fibras o exposición a altas temperaturas",
+      "Cambio de color por moda",
+      "Que haya pasado un solo año",
+      "Uso en una práctica"
+    ],
+    "correcta": "Golpe severo, corte de fibras o exposición a altas temperaturas"
+  },
+  {
+    "id": 60,
+    "modulo": "cuerdas",
+    "nivel": "facil",
+    "pregunta": "Los descensores y mosquetones deben:",
+    "opciones": [
+      "Estar certificados y usarse según su carga de trabajo segura",
+      "Elegirse solo por el color",
+      "Compartirse con civiles",
+      "Lubricarse con aceite de motor usado"
+    ],
+    "correcta": "Estar certificados y usarse según su carga de trabajo segura"
+  },
+  {
+    "id": 61,
+    "modulo": "rescate_vehicular",
+    "nivel": "facil",
+    "pregunta": "En un rescate vehicular, la primera acción es:",
+    "opciones": [
+      "Seguridad de la escena y estabilización del vehículo",
+      "Cortar inmediatamente el techo",
+      "Mover al paciente para verlo mejor",
+      "Desinflar los neumáticos"
+    ],
+    "correcta": "Seguridad de la escena y estabilización del vehículo"
+  },
+  {
+    "id": 62,
+    "modulo": "rescate_vehicular",
+    "nivel": "medio",
+    "pregunta": "La desconexión de la batería en un rescate vehicular busca:",
+    "opciones": [
+      "Reducir riesgos de incendio y activación de sistemas eléctricos",
+      "Mejorar la iluminación del lugar",
+      "Bajar el consumo de combustible",
+      "Evitar que suene la radio del vehículo"
+    ],
+    "correcta": "Reducir riesgos de incendio y activación de sistemas eléctricos"
+  },
+  {
+    "id": 63,
+    "modulo": "rescate_vehicular",
+    "nivel": "medio",
+    "pregunta": "El triángulo de corte se refiere a:",
+    "opciones": [
+      "Áreas del vehículo donde es más seguro y efectivo cortar",
+      "La forma del parabrisas",
+      "La disposición de los conos en la ruta",
+      "Un tipo de nudo con cuerdas"
+    ],
+    "correcta": "Áreas del vehículo donde es más seguro y efectivo cortar"
+  },
+  {
+    "id": 64,
+    "modulo": "rescate_vehicular",
+    "nivel": "dificil",
+    "pregunta": "Durante la atención a la víctima atrapada se debe:",
+    "opciones": [
+      "Mantener comunicación constante y protegerla de vidrios y elementos cortantes",
+      "Trabajar en silencio absoluto",
+      "Cortar metal sobre el cuerpo del paciente para avanzar rápido",
+      "Abrir las puertas golpeándolas con herramientas"
+    ],
+    "correcta": "Mantener comunicación constante y protegerla de vidrios y elementos cortantes"
+  },
+  {
+    "id": 65,
+    "modulo": "rescate_vehicular",
+    "nivel": "facil",
+    "pregunta": "Los equipos hidráulicos (expansores y cortantes) se utilizan para:",
+    "opciones": [
+      "Crear accesos y liberar atrapados deformando la estructura del vehículo",
+      "Levantar camiones para cambiar ruedas",
+      "Apagar incendios de motor",
+      "Inflar los airbags"
+    ],
+    "correcta": "Crear accesos y liberar atrapados deformando la estructura del vehículo"
   }
 ]
