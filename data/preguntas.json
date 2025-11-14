@@ -1,24 +1,31 @@
-{
-  "id": 400,
-  "modulo": "fuego",
-  "nivel": "facil",
-  "pregunta": "¿Qué es el fuego?",
-  "opciones": [
-    "Una reacción química de oxidación rápida",
-    "Un estado del agua",
-    "Un fenómeno eléctrico",
-    "Un tipo de iluminación natural"
-  ],
-  "correcta": "Una reacción química de oxidación rápida"
-},
-{
-  "id": 401,
-  "modulo": "fuego",
-  "nivel": "medio",
-  "pregunta": "El triángulo del fuego está compuesto por:",
-  "opciones": ["Calor, combustible, oxígeno", "Agua, humo, calor", "Vapor, calor, gas", "Humo, carbón, aire"],
-  "correcta": "Calor, combustible, oxígeno"
-},
+[
+  {
+    "id": 400,
+    "modulo": "fuego",
+    "nivel": "facil",
+    "pregunta": "¿Qué es el fuego?",
+    "opciones": [
+      "Una reacción química de oxidación rápida",
+      "Un estado del agua",
+      "Un fenómeno eléctrico",
+      "Un tipo de iluminación natural"
+    ],
+    "correcta": "Una reacción química de oxidación rápida"
+  },
+  {
+    "id": 401,
+    "modulo": "fuego",
+    "nivel": "medio",
+    "pregunta": "El triángulo del fuego está compuesto por:",
+    "opciones": [
+      "Calor, combustible, oxígeno",
+      "Agua, humo, calor",
+      "Vapor, calor, gas",
+      "Humo, carbón, aire"
+    ],
+    "correcta": "Calor, combustible, oxígeno"
+  }
+]
 {
   "id": 402,
   "modulo": "fuego",
@@ -1170,4 +1177,5 @@
   ],
   "correcta": "Identificar oficialmente a cada cuartel del país"
 }
+
 
