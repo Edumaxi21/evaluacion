@@ -24,6 +24,32 @@
     <button onclick="mostrarHistorial()">Historial</button>
   </div>
 
+  <!-- SELECTOR DE MÓDULOS -->
+<div id="selectorModulo" class="panel" style="display:none;">
+  <h3>Elegí un módulo:</h3>
+  <select id="moduloElegido">
+    <option value="todos">Todos los módulos</option>
+    <option value="organizacion">Organización bomberil</option>
+    <option value="seguridad_bombero">Seguridad del bombero</option>
+    <option value="psicologia">Psicología de la emergencia</option>
+    <option value="comunicaciones">Comunicaciones</option>
+    <option value="materiales_incendios">Materiales de trabajo en incendios</option>
+    <option value="riesgo_electrico">Riesgo eléctrico</option>
+    <option value="fuego">Fuego</option>
+    <option value="forestales">Incendios forestales</option>
+    <option value="estructurales">Incendios estructurales</option>
+    <option value="socorrismo">Socorrismo</option>
+    <option value="materiales_peligrosos">Materiales peligrosos</option>
+    <option value="cuerdas">Cuerdas y alturas</option>
+    <option value="rescate_vehicular">Rescate vehicular</option>
+  </select>
+
+  <br><br>
+  <button onclick="iniciarModulo()">Iniciar módulo</button>
+  <button onclick="volverMenu()">Volver</button>
+</div>
+
+
   <!-- NIVEL -->
   <div id="seleccionNivel" class="panel" style="display:none;">
     <h3>Elegí un nivel:</h3>
@@ -79,5 +105,6 @@
 <script src="app.js"></script>
 </body>
 </html>
+
 
 
