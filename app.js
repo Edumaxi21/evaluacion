@@ -290,3 +290,74 @@ function mostrarPreguntaConOpciones(q, idPregunta, idOpciones, callbackResultado
     cont.appendChild(div);
   });
 }
+
+function mostrarSelectorModulo() {
+  ocultarTodo();
+  document.getElementById("selectorModulo").style.display = "block";
+}
+
+function iniciarModulo() {
+  const modulo = document.getElementById("moduloElegido").value;
+
+  if (modulo === "todos") {
+    preguntasFiltradas = [...preguntas];
+  } else {
+    preguntasFiltradas = preguntas.filter(p => p.modulo === modulo);
+  }
+
+  if (preguntasFiltradas.length === 0) {
+    alert("Este módulo no tiene preguntas cargadas aún.");
+    return;
+  }
+
+  nivelActual = "modulo";
+  preguntaIndex = 0;
+  puntajeEntrenamiento = 0;
+
+  ocultarTodo();
+  document.getElementById("juego").style.display = "block";
+  siguientePreguntaModulo();
+}
+
+function siguientePreguntaModulo() {
+  clearInterval(temporizadorEntrenamiento);
+
+  tiempo = 15;
+  document.getElementById("temporizador").innerText = "Tiempo: " + tiempo;
+
+  temporizadorEntrenamiento = setInterval(() => {
+    tiempo--;
+    document.getElementById("temporizador").innerText = "Tiempo: " + tiempo;
+    if (tiempo <= 0) {
+      clearInterval(temporizadorEntrenamiento);
+      preguntaIndex++;
+      if (preguntaIndex >= preguntasFiltradas.length) {
+        alert("Fin del módulo.");
+        volverMenu();
+        return;
+      }
+      mostrarPreguntaModulo();
+    }
+  }, 1000);
+
+  mostrarPreguntaModulo();
+}
+
+function mostrarPreguntaModulo() {
+  const q = preguntasFiltradas[preguntaIndex];
+  mostrarPreguntaConOpciones(q, "pregunta", "opciones", (correcta) => {
+    if (correcta) {
+      puntajeEntrenamiento++;
+      document.getElementById("puntaje").innerText = "Puntaje: " + puntajeEntrenamiento;
+    }
+    preguntaIndex++;
+    if (preguntaIndex >= preguntasFiltradas.length) {
+      setTimeout(() => {
+        alert("¡Terminaste este módulo!");
+        volverMenu();
+      }, 600);
+    }
+  });
+}
+
+
