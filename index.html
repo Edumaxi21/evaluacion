@@ -2,25 +2,30 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Plataforma Bomberos - Quiz GRE & Psicología</title>
+  <title>Plataforma Bomberil - Versión Oscura</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+
+<!-- Fondo animado -->
+<canvas id="fuego"></canvas>
+
 <div id="app">
-  <h1>Plataforma de Entrenamiento - Bomberos Voluntarios</h1>
-  <h3>Quiz GRE, Psicología de la Emergencia, Escalafón e Historia</h3>
+  <h1 class="titulo">🔥 Plataforma de Entrenamiento – Bomberos Voluntarios 🔥</h1>
+  <h3 class="sub">GRE • Psicología • Historia • Escalafón</h3>
 
-  <div id="cargando">Cargando banco de preguntas...</div>
+  <div id="cargando">Cargando preguntas...</div>
 
-  <div id="menuPrincipal" style="display:none;">
-    <h3>Seleccioná un modo:</h3>
-    <button onclick="seleccionarNivel()">Modo Entrenamiento (por nivel)</button>
-    <button onclick="iniciarExamen()">Modo Examen (20 preguntas)</button>
+  <!-- MENÚ PRINCIPAL -->
+  <div id="menuPrincipal" class="panel" style="display:none;">
+    <button onclick="seleccionarNivel()">Modo Entrenamiento</button>
+    <button onclick="iniciarExamen()">Modo Examen</button>
     <button onclick="iniciarSupervivencia()">Modo Supervivencia</button>
     <button onclick="mostrarHistorial()">Historial</button>
   </div>
 
-  <div id="seleccionNivel" style="display:none;">
+  <!-- NIVEL -->
+  <div id="seleccionNivel" class="panel" style="display:none;">
     <h3>Elegí un nivel:</h3>
     <button onclick="iniciar('facil')">Fácil</button>
     <button onclick="iniciar('medio')">Medio</button>
@@ -29,9 +34,9 @@
   </div>
 
   <!-- ENTRENAMIENTO -->
-  <div id="juego" style="display:none;">
+  <div id="juego" class="panel" style="display:none;">
     <div id="temporizador">Tiempo: 15</div>
-    <p id="pregunta"></p>
+    <p id="pregunta" class="pregunta"></p>
     <div id="opciones"></div>
     <p id="puntaje"></p>
     <button onclick="siguientePregunta()">Siguiente</button>
@@ -39,35 +44,40 @@
   </div>
 
   <!-- EXAMEN -->
-  <div id="examen" style="display:none;">
+  <div id="examen" class="panel" style="display:none;">
     <div id="temporizadorEx">Tiempo: 15</div>
     <h3>Examen Oficial (20 preguntas)</h3>
-    <p id="preguntaEx"></p>
+    <p id="preguntaEx" class="pregunta"></p>
     <div id="opcionesEx"></div>
     <p id="contadorEx"></p>
     <p id="puntajeEx"></p>
     <button onclick="siguienteExamen()">Siguiente</button>
-    <button onclick="volverMenu()">Volver al menú</button>
   </div>
 
   <!-- SUPERVIVENCIA -->
-  <div id="supervivencia" style="display:none;">
+  <div id="supervivencia" class="panel" style="display:none;">
     <div id="temporizadorSup">Tiempo: 15</div>
     <h3>Modo Supervivencia</h3>
-    <p id="preguntaSup"></p>
+    <p id="preguntaSup" class="pregunta"></p>
     <div id="opcionesSup"></div>
     <p id="rachaSup"></p>
     <button onclick="volverMenu()">Volver al menú</button>
   </div>
 
   <!-- HISTORIAL -->
-  <div id="historial" style="display:none;">
+  <div id="historial" class="panel" style="display:none;">
     <h3>Historial de Exámenes</h3>
     <div id="historialBox"></div>
     <button onclick="volverMenu()">Volver</button>
   </div>
+
+  <!-- RESULTADOS DEL EXAMEN -->
+  <div id="resultadoExamen" class="panel" style="display:none;"></div>
 </div>
 
+<script src="js/particles.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
+
+
